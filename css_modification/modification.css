@@ -120,6 +120,7 @@
     justify-content: center;
 }
 
+
 /* Student Dashboard Page styling section */
 .student-dashboard-wrapper{
     overflow-x:hidden;
@@ -145,4 +146,24 @@
 }
 .exam-card{
     border-bottom:2px solid gray;
+}
+
+
+/* Exam Result Practice Page styling section */
+.exam-result-wrapper{
+    overflow-x:hidden;
+    width:100%;
+    min-height:100vh;
+    background:var(--darkish-gray); 
+}
+.result-head-block,.result-score-block,.result-score-block2{
+    background-color:var(--grayish-dark);
+}
+.sticky-exam-num-n-subject{
+    position:absolute;
+    top:0;
+    left:0;
+    min-width:50px;
+    padding:5px;
+    border-radius: 0 5px 5px 0;
 }
